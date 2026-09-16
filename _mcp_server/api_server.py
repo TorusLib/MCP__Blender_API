@@ -52,7 +52,7 @@ async def lifespan(app: FastAPI) -> AsyncGenerator[None, None]:
 app = FastAPI(
     title="Blender API Docs",
     description="REST API for Blender Python API Documentation (3.6, 4.5, 5.1)",
-    version="0.3.2",
+    version="0.3.3",
     lifespan=lifespan,
 )
 
