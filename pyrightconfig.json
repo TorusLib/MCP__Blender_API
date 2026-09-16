@@ -1,0 +1,9 @@
+{
+    "venvPath": ".",
+    "venv": ".venv",
+    "pythonVersion": "3.10",
+    "typeCheckingMode": "standard",
+    "include": ["_mcp_server", "BD_BASE", "dev_tests"],
+    "extraPaths": ["_mcp_server"],
+    "exclude": ["**/__pycache__", "**/*.pyc", ".venv"],
+}

@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments (портативное окружение проекта)
+venv/
+venv_hidden/
+env/
+ENV/
+0ff/
+.venv
+*.pyc
+__pycache__/
+
+# HTML documentation (1.4 GB, restore from git if needed)
+# Распакуй архив с docs.blender.org в API_DOC/3_6/, API_DOC/4_5/, API_DOC/5_1/
+API_DOC/*
+!API_DOC/.gitkeep
+
+# Files
+TODO.md
+CHANGELOG.md
+
+
+# IDE
+#
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database
+*.db-wal
+*.db-shm
+blender_docs.db
+BD_BASE/blender_api.db
+
+# Large files — HTML docs are already backed up
+
+# Secrets
+*.key
+*.pem
+
+# Debug/dev scripts
+_mcp_server/debug_*.py
+_mcp_server/*_check.py
+_mcp_server/*_status.py

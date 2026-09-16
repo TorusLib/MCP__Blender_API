@@ -1,0 +1,21 @@
+# Git LFS для больших файлов
+# Если в будущем добавите API_DOC в репозиторий через LFS:
+# *.zip filter=lfs diff=lfs merge=lfs -text
+# *.db filter=lfs diff=lfs merge=lfs -text
+# *.7z filter=lfs diff=lfs merge=lfs -text
+
+# Текстовые файлы — правильные переводы строк
+*.py text diff=python
+*.md text
+*.bat text eol=crlf
+*.json text
+*.txt text
+*.html text
+*.sql text
+*.css text
+*.js text
+
+# Бинарные файлы — не хранить в git (если добавятся)
+# *.png binary
+# *.jpg binary
+# *.ico binary
